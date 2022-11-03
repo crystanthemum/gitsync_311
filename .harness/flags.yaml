@@ -1,8 +1,8 @@
 featureFlags:
   flags:
   - flag:
-      name: test
-      identifier: test
+      name: qq
+      identifier: qq
       description: ""
       permanent: false
       spec:
@@ -16,7 +16,7 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
-      - identifier: test
+      - identifier: qq
         default:
           onVariation: "true"
           offVariation: "false"
