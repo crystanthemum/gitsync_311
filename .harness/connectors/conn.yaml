@@ -1,0 +1,23 @@
+connector:
+  name: conn
+  identifier: conn
+  description: ""
+  orgIdentifier: default
+  projectIdentifier: gitsync_311
+  type: Github
+  spec:
+    url: https://github.com/crystanthemum
+    validationRepo: gitsync_311
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: crystanthemum
+          tokenRef: gitsync_311
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: gitsync_311
+    executeOnDelegate: false
+    type: Account
