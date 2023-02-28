@@ -21,5 +21,9 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: q
+          variation: "true"
   projectIdentifier: gitsync_311
   orgIdentifier: default
